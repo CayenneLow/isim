@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B68A733217473B9B00EB2AF6 /* iPhoneSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A732F17473B7000EB2AF6 /* iPhoneSimulator.m */; };
+		B68A733317473B9F00EB2AF6 /* NSString+File.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A732D17473B7000EB2AF6 /* NSString+File.m */; };
+		B68A734517473DE100EB2AF6 /* LaunchSafariCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A734417473DE100EB2AF6 /* LaunchSafariCommand.m */; };
+		B68A7347174740E400EB2AF6 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A7346174740E400EB2AF6 /* Command.m */; };
+		B68A734C1747611E00EB2AF6 /* LaunchCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = B68A734B1747611E00EB2AF6 /* LaunchCommand.m */; };
+		B6AACD7017472E8A009673D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6AACD6F17472E8A009673D1 /* Foundation.framework */; };
+		B6AACD7317472E8A009673D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6AACD7217472E8A009673D1 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B6AACD6A17472E89009673D1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B68A732C17473B7000EB2AF6 /* NSString+File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+File.h"; sourceTree = "<group>"; };
+		B68A732D17473B7000EB2AF6 /* NSString+File.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+File.m"; sourceTree = "<group>"; };
+		B68A732E17473B7000EB2AF6 /* iPhoneSimulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneSimulator.h; sourceTree = "<group>"; };
+		B68A732F17473B7000EB2AF6 /* iPhoneSimulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iPhoneSimulator.m; sourceTree = "<group>"; };
+		B68A733417473BFA00EB2AF6 /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		B68A734317473DE100EB2AF6 /* LaunchSafariCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchSafariCommand.h; sourceTree = "<group>"; };
+		B68A734417473DE100EB2AF6 /* LaunchSafariCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchSafariCommand.m; sourceTree = "<group>"; };
+		B68A7346174740E400EB2AF6 /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		B68A73491747512700EB2AF6 /* iPhoneSimulatorRemoteClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhoneSimulatorRemoteClient.h; sourceTree = "<group>"; };
+		B68A734A1747611E00EB2AF6 /* LaunchCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaunchCommand.h; sourceTree = "<group>"; };
+		B68A734B1747611E00EB2AF6 /* LaunchCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaunchCommand.m; sourceTree = "<group>"; };
+		B6AACD6C17472E8A009673D1 /* isim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = isim; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AACD6F17472E8A009673D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B6AACD7217472E8A009673D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6AACD7517472E8A009673D1 /* isim-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "isim-Prefix.pch"; sourceTree = "<group>"; };
+		B6AACD821747306D009673D1 /* isim.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = isim.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AACD6917472E89009673D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AACD7017472E8A009673D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B68A732917473B7000EB2AF6 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				B68A732A17473B7000EB2AF6 /* commands */,
+				B68A732B17473B7000EB2AF6 /* helper */,
+				B68A732E17473B7000EB2AF6 /* iPhoneSimulator.h */,
+				B68A732F17473B7000EB2AF6 /* iPhoneSimulator.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		B68A732A17473B7000EB2AF6 /* commands */ = {
+			isa = PBXGroup;
+			children = (
+				B68A733417473BFA00EB2AF6 /* Command.h */,
+				B68A7346174740E400EB2AF6 /* Command.m */,
+				B68A734A1747611E00EB2AF6 /* LaunchCommand.h */,
+				B68A734B1747611E00EB2AF6 /* LaunchCommand.m */,
+				B68A734317473DE100EB2AF6 /* LaunchSafariCommand.h */,
+				B68A734417473DE100EB2AF6 /* LaunchSafariCommand.m */,
+			);
+			path = commands;
+			sourceTree = "<group>";
+		};
+		B68A732B17473B7000EB2AF6 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				B68A732C17473B7000EB2AF6 /* NSString+File.h */,
+				B68A732D17473B7000EB2AF6 /* NSString+File.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		B68A73481747512700EB2AF6 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				B68A73491747512700EB2AF6 /* iPhoneSimulatorRemoteClient.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		B6AACD6317472E89009673D1 = {
+			isa = PBXGroup;
+			children = (
+				B6AACD7117472E8A009673D1 /* isim */,
+				B6AACD6E17472E8A009673D1 /* Frameworks */,
+				B6AACD6D17472E8A009673D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AACD6D17472E8A009673D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AACD6C17472E8A009673D1 /* isim */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AACD6E17472E8A009673D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6AACD6F17472E8A009673D1 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B6AACD7117472E8A009673D1 /* isim */ = {
+			isa = PBXGroup;
+			children = (
+				B6AACD7217472E8A009673D1 /* main.m */,
+				B68A732917473B7000EB2AF6 /* app */,
+				B68A73481747512700EB2AF6 /* inc */,
+				B6AACD7417472E8A009673D1 /* Supporting Files */,
+				B6AACD821747306D009673D1 /* isim.xcconfig */,
+			);
+			path = isim;
+			sourceTree = "<group>";
+		};
+		B6AACD7417472E8A009673D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6AACD7517472E8A009673D1 /* isim-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AACD6B17472E89009673D1 /* isim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AACD7A17472E8A009673D1 /* Build configuration list for PBXNativeTarget "isim" */;
+			buildPhases = (
+				B6AACD6817472E89009673D1 /* Sources */,
+				B6AACD6917472E89009673D1 /* Frameworks */,
+				B6AACD6A17472E89009673D1 /* CopyFiles */,
+				B68A734D1747628100EB2AF6 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = isim;
+			productName = isim;
+			productReference = B6AACD6C17472E8A009673D1 /* isim */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AACD6417472E89009673D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Seiji Toyama";
+			};
+			buildConfigurationList = B6AACD6717472E89009673D1 /* Build configuration list for PBXProject "isim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B6AACD6317472E89009673D1;
+			productRefGroup = B6AACD6D17472E8A009673D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AACD6B17472E89009673D1 /* isim */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B68A734D1747628100EB2AF6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "pkill \"iPhone Simulator\"\necho \"kill iPhone Simulator\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AACD6817472E89009673D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6AACD7317472E8A009673D1 /* main.m in Sources */,
+				B68A733217473B9B00EB2AF6 /* iPhoneSimulator.m in Sources */,
+				B68A733317473B9F00EB2AF6 /* NSString+File.m in Sources */,
+				B68A734517473DE100EB2AF6 /* LaunchSafariCommand.m in Sources */,
+				B68A7347174740E400EB2AF6 /* Command.m in Sources */,
+				B68A734C1747611E00EB2AF6 /* LaunchCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B6AACD7817472E8A009673D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AACD821747306D009673D1 /* isim.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B6AACD7917472E8A009673D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AACD821747306D009673D1 /* isim.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B6AACD7B17472E8A009673D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AACD821747306D009673D1 /* isim.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isim/isim-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B6AACD7C17472E8A009673D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AACD821747306D009673D1 /* isim.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "isim/isim-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AACD6717472E89009673D1 /* Build configuration list for PBXProject "isim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AACD7817472E8A009673D1 /* Debug */,
+				B6AACD7917472E8A009673D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AACD7A17472E8A009673D1 /* Build configuration list for PBXNativeTarget "isim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AACD7B17472E8A009673D1 /* Debug */,
+				B6AACD7C17472E8A009673D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AACD6417472E89009673D1 /* Project object */;
+}
